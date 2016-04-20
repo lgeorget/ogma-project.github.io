@@ -23,7 +23,7 @@ Commit after commit, the definition of the `GenConf` record has grown in
 complexity until it gets more than ten fields. That made the declaration of a
 `GenConf` instance a little tricky. See for yourself:
 
-{% highlight raw %}
+{% highlight haskell %}
 htmlConf :: GenConf Html
 htmlConf =
   GenConf englishTypo
@@ -96,7 +96,7 @@ even more complex.
 
 Finally, let’s have a look at the typeclass definition.
 
-{% highlight raw %}
+{% highlight haskell %}
 class (Monoid o) => GenConf c o | c -> o
 {% endhighlight %}
 
