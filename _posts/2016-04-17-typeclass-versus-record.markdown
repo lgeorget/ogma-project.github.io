@@ -10,7 +10,7 @@ image:
 date: 2016-04-17T12:00:00+02:00
 ---
 
-In the [ogmarkup library](https://github.com/ikyushii/ogmarkup), the output
+In the [ogmarkup library](https://github.com/ogma-project/ogmarkup), the output
 generation is driven by a set of templates and functions. In the earlier
 versions of ogmarkup, the configuration was the `GenConf` record (module
 `Text.Ogmarkup.Private.Config`). However, a few days ago, we merged a [Pull
